@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECH.UNIT</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script type='text/javascript' src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script type='text/javascript'></script>
+
+</head>
+
+<body>
+<div class="header">
+    <div class="container">
+        <div class="header-line">
+
+            <div class="nav">
+                <a class="nav-1" class="nav-link"  href="#">About Us</a>
+                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="#">Cases</a>
+                <a class="nav-link" href="#">Contacts</a>
+            </div>
+        
+            <div class="logo">
+                TECH.UNIT
+            </div>
+
+            <div class="lang-block">
+
+                <div class="lang">
+                    EN
+                </div>
+
+                <div class="change-lang">
+                    <a href="">
+                        <img src="../tech.unit/img/arrow-down.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="line"></div>
+    </div>
+
+
+    <div class="bc">
+        <div class="bc-left">
+            <img class="bc-left" src="../tech.unit/img/bc-left.png" alt="">
+        </div>
+
+        <div class="rectangle-left"></div>
+
+        <div class="bc-right">
+            <img class="bc-right" src="../tech.unit/img/bc-right.png" alt="">
+        </div>
+
+        <div class="rectangle-right"></div>
+    </div>
+    
+
+    <div class="header-title">
+        <div class="title">
+            we measure, manage & improve innovation 
+        </div>
+
+    </div>
+
+    <div class="btn">
+        <a href="#" class="button" >Let’s work!</a>
+    </div>
+    </div>
+</div>
+
+<div class="services">
+    <div class="container">
+
+        <div class="services-title">
+            Services
+        </div>
+
+        <div class="line-services"></div>
+
+        <div class="services-items">
+
+            <div class="services-item">
+
+                <!--01 Marketing-->
+                <div  class="btnservices">
+                    <button class="btnserv-1">01 Marketing</button>
+                        <div class="images" style="display: none">
+                            <img class="img" src="../tech.unit/img/group-right-arrow.png" alt="">
+                            <div class="btnserv-1-text-click text1"> Developing complex effective and slick technochnological solutions</div>
+                        </div>
+                </div>
+
+                <div class="line-services"></div>
+                
+
+                <!--02 Development-->
+                <div class="btnservices" >
+
+                    <button class="btnserv-2">02 Development</button>
+
+                    <div class="images2" style="display: none">
+                        <img class="img" src="../tech.unit/img/group-right-arrow.png" alt="">
+
+                        <div class="btnserv-1-text-click2">Developing complex effective and slick technochnological solutions</div>
+
+                    </div>
+                </div>
+
+                <div class="line-services"></div>
+                
+
+                <!--03 Analytics-->
+                <div class="btnservices">
+                    <button class="btnserv-3">03 Analytics</button>
+                    <div  class="images3" style="display: none">
+                        <img class="img" src="../tech.unit/img/group-right-arrow.png" alt="">
+
+                        <div class="btnserv-1-text-click3">Developing complex effective and slick technochnological solutions</div>
+
+                    </div>
+                    
+                </div>
+
+                <div class="line-services"></div>
+                
+
+                <!--04 Consulting-->
+                <div class="btnservices" >
+
+                    <button class="btnserv-4">04 Consulting</button>
+                 
+                    <div  class="images4" style="display: none">
+                        <img class="img" src="../tech.unit/img/group-right-arrow.png" alt="">
+
+                        <div class="btnserv-1-text-click4">Developing complex effective and slick technochnological solutions</div>
+
+                    </div>
+                </div>
+
+                <div class="line-services"></div>
+                
+
+                <!--05 Fundraising-->
+                <div class="btnservices" >
+
+                    <button class="btnserv-5">05 Fundraising</button>
+
+                    <div class="images5" style="display: none">
+                        <img class="img" src="../tech.unit/img/group-right-arrow.png" alt="">
+
+                        <div class="btnserv-1-text-click5">Developing complex effective and slick technochnological solutions</div>
+
+                    </div>
+                    
+                   
+
+                </div>
+
+                <div class="line-services"></div>
+                
+
+                <!--06 Design-->
+                <div class="btnservices">
+
+                    <button  class="btnserv-6">06 Design</button>
+
+                    <div class="images6" style="display: none">
+                        <img class="img " src="../tech.unit/img/group-right-arrow.png" alt="">
+
+                        <div id='text6' class="btnserv-1-text-click6">Developing complex effective and slick technochnological solutions</div>
+                    </div>
+            
+                    
+                </div>
+                <div class="line-services"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+$(function() {
+    $('.btnserv-1').mouseover(function() {
+    if( $(".images, .btnserv-1-text-click").is(":hidden") ) {
+    $(".images, .btnserv-1-text-click").show();
+    }
+    else
+    {
+    $(".images, .btnserv-1-text-click").hide();
+    }
+    });
+    });
+    
+    $(function() {
+    $('.btnserv-1').mouseout(function() {
+    $(".images, .btnserv-1-text-click").hide();
+
+    });
+});
+</script>
+
+<script>
+    $(function() {
+        $('.btnserv-2').mouseover(function() {
+        if( $(".images2, .btnserv-1-text-click2").is(":hidden") ) {
+        $(".images2, .btnserv-1-text-click2").show();
+        }
+        else
+        {
+        $(".images2, .btnserv-1-text-click").hide();
+        }
+        });
+        });
+        
+        $(function() {
+        $('.btnserv-2').mouseout(function() {
+        $(".images2, .btnserv-1-text-click2").hide();
+    
+        });
+    });
+</script>
+
+<script>
+    $(function() {
+        $('.btnserv-3').mouseover(function() {
+        if( $(".images3, .btnserv-1-text-click3").is(":hidden") ) {
+        $(".images3, .btnserv-1-text-click3").show();
+        }
+        else
+        {
+        $(".images3, .btnserv-1-text-click3").hide();
+        }
+        });
+        });
+        
+        $(function() {
+        $('.btnserv-3').mouseout(function() {
+        $(".images3, .btnserv-1-text-click3").hide();
+    
+        });
+    });
+</script>
+
+<script>
+    $(function() {
+        $('.btnserv-4').mouseover(function() {
+        if( $(".images4, .btnserv-1-text-click4").is(":hidden") ) {
+        $(".images4, .btnserv-1-text-click4").show();
+        }
+        else
+        {
+        $(".images4, .btnserv-1-text-click4").hide();
+        }
+        });
+        });
+        
+        $(function() {
+        $('.btnserv-4').mouseout(function() {
+        $(".images4, .btnserv-1-text-click4").hide();
+    
+        });
+    });
+</script>
+
+<script>
+    $(function() {
+        $('.btnserv-5').mouseover(function() {
+        if( $(".images5, .btnserv-1-text-click5").is(":hidden") ) {
+        $(".images5, .btnserv-1-text-click5").show();
+        }
+        else
+        {
+        $(".images5, .btnserv-1-text-click5").hide();
+        }
+        });
+        });
+        
+        $(function() {
+        $('.btnserv-5').mouseout(function() {
+        $(".images5, .btnserv-1-text-click5").hide();
+    
+        });
+    });
+</script>
+
+<script>
+    $(function() {
+        $('.btnserv-6').mouseover(function() {
+        if( $(".images6, .btnserv-1-text-click6").is(":hidden") ) {
+        $(".images6, .btnserv-1-text-click6").show();
+        }
+        else
+        {
+        $(".images6, .btnserv-1-text-click").hide();
+        }
+        });
+        });
+        
+        $(function() {
+        $('.btnserv-6').mouseout(function() {
+        $(".images6, .btnserv-1-text-click6").hide();
+    
+        });
+    });
+</script>
+
+<div class="cpi">
+    <div class="cpi-holder">
+        <img class="cpi-bc"  src="../tech.unit/img/bc-cpi.png" alt="">
+        <img class="img-logo-cpi" src="../tech.unit/img/Group.png" alt="">
+        <div class="container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+
+                        <div class="container-cpi">
+                            <div class="suptitle">Case study</div>
+                            <div class="title-spi">Digital transformation</div>
+
+                            <div class="subtitle1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pharetra scelerisque tincidunt aenean.</div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="container-cpi">
+                            <div class="suptitle">Case study</div>
+                            <div class="title-spi">Digital transformation</div>
+
+                            <div class="subtitle1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pharetra scelerisque tincidunt aenean.</div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide"> 
+                        <div class="container-cpi">
+                                <div class="suptitle">Case study</div>
+                                <div class="title-spi">Digital transformation</div>
+
+                                <div class="subtitle1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pharetra scelerisque tincidunt aenean.</div>
+                        </div>
+                    </div>
+            
+                
+                    </div>
+                        <div >
+                            <img class="swiper-button-next" src="../tech.unit/img/arrow-right.png" alt="">
+                        </div>
+
+                        <div >
+                            <img class="swiper-button-prev" src="../tech.unit/img/arrow-left.png" alt="">
+                        </div>
+                    
+                    </div>
+
+                        <!-- Swiper JS -->
+                        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+                        <!-- Initialize Swiper -->
+                        <script>
+                            var swiper = new Swiper(".mySwiper", {
+                            cssMode: true,
+                            navigation: {
+                                nextEl: ".swiper-button-next",
+                                prevEl: ".swiper-button-prev",
+                            },
+                            mousewheel: true,
+                            keyboard: true,
+                            });
+                        </script>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="about">
+    <div class="container">
+        <div class="clearfix" id="counter" >
+           
+            <div class="block">
+                <div id="out" data-max="100500" class="number">100000</div>
+                <div class="text-block">Average budget</div>
+            </div>
+            <div class="vl"></div>
+        
+        
+            <div class="block">
+                
+                <div id="out-1" class="twenty-plus">
+                    <div data-max="20" class="number1">0</div>
+                    <div class="plus">+</div>
+                </div>
+               
+                <div class="text-block">Amazing specialist</div>
+            </div>
+            
+            <div class="vl"></div>
+
+            <div class="block">
+                <div id="out-2" data-max="300"class="number2">0</div>
+                <div class="text-block">Good jokes per year</div>
+            </div>
+            <div class="vl"></div>
+
+            <div class="block">
+                <div id="out-3" data-max="100500"class="number3">100000</div>
+                <div class="text-block"> Riased for our clients</div>
+            </div>
+
+         </div>
+    </div>   
+</div>
+
+<div class="foot">
+    <div class="container">
+        <div class="foot-holder">
+
+           
+            <div class="foot-bc">
+                <img class="images-foot" src="img/bc.png" alt="">
+
+                <div class="rectangle-foot-left"></div>
+
+                <div class="rectangle-foot-right"></div>
+            </div>
+
+            
+                <div class="foot-title">
+                    A basic unit of creativity <br> is effectiveness
+                </div>
+        </div>
+    </div>
+
+</div>
+<!--<script src="script.js"></script>-->
+
+
+
+<script>
+    var number = document.querySelector('.number'),
+    numberTop = number.getBoundingClientRect().top,
+    start = +number.innerHTML, end = +number.dataset.max;
+
+    window.addEventListener('scroll', function onScroll() {
+        if(window.pageYOffset > numberTop - window.innerHeight / 2) {
+            this.removeEventListener('scroll', onScroll);
+            var interval = setInterval(function() {
+                number.innerHTML = ++start;
+                if(start == end) {
+                    clearInterval(interval);
+                }
+            }, 10);
+        }
+    });
+</script>
+<script>var number1 = document.querySelector('.number1'),
+    number1Top = number1.getBoundingClientRect().top,
+    start1 = +number1.innerHTML, end1 = +number1.dataset.max;
+
+    window.addEventListener('scroll', function onScroll() {
+        if(window.pageYOffset > number1Top - window.innerHeight / 2) {
+            this.removeEventListener('scroll', onScroll);
+            var interval1 = setInterval(function() {
+                number1.innerHTML = ++start1;
+                if(start1 == end1) {
+                    clearInterval(interval1);
+                }
+            }, 300);
+        }
+    });
+</script>
+<script>var number2 = document.querySelector('.number2'),
+    number2Top = number2.getBoundingClientRect().top,
+    start2 = +number2.innerHTML, end2 = +number2.dataset.max;
+
+    window.addEventListener('scroll', function onScroll() {
+        if(window.pageYOffset > number2Top - window.innerHeight / 2) {
+            this.removeEventListener('scroll', onScroll);
+            var interval2 = setInterval(function() {
+                number2.innerHTML = ++start2;
+                if(start2 == end2) {
+                    clearInterval(interval2);
+                }
+            }, 22);
+        }
+    });
+</script>
+<script>var number3 = document.querySelector('.number3'),
+    number3Top = number3.getBoundingClientRect().top,
+    start3 = +number3.innerHTML, end3 = +number3.dataset.max;
+
+    window.addEventListener('scroll', function onScroll() {
+        if(window.pageYOffset > number3Top - window.innerHeight / 2) {
+            this.removeEventListener('scroll', onScroll);
+            var interval3 = setInterval(function() {
+                number3.innerHTML = ++start3;
+                if(start3 == end3) {
+                    clearInterval(interval3);
+                }
+            }, 10);
+        }
+    });
+</script>
+
+
+</body>
+</html>
